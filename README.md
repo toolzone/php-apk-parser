@@ -1,18 +1,18 @@
 # [Apk Parser](http://tufanbarisyildirim.github.io/php-apk-parser/)
 
-This package can extract application package files in APK format used by devices running on Android OS.
-It can open an APK file and extract the contained manifest file to parse it and retrieve the meta-information
-it contains like the application name, description, device feature access permission it requires, etc..
-The class can also extract the whole files contained in the APK file to a given directory.
+此包可以提取运行在Android操作系统上的设备使用的APK格式的应用程序包文件。
+它可以打开一个APK文件并提取包含的清单文件来解析它并检索元信息。
+它包含应用程序名称、说明、所需的设备功能访问权限等。
+类还可以将APK文件中包含的整个文件提取到给定的目录中。
 
-### Requirements
+### 要求
 
 PHP 5.3+
 
-### Installation
+### 安装
 
-- Install [composer](http://getcomposer.org/download/)
-- Create a composer.json into your project like the following sample:
+- 安装 [composer](http://getcomposer.org/download/)
+- 在项目中创建composer.json，如下示例：
 
 ```json
 {
@@ -23,43 +23,4 @@ PHP 5.3+
 }
 ```
 
-- Then from your `composer.json` folder: `php composer.phar install` or `composer install`
-
-## Testing
-
-Tests are powered by PHPUnit. You have several options.
-
-- Run `phpunit` if PHPUnit is installed globally.
-- Install dependencies (requires [Composer](https://getcomposer.org/download)).
-  Run `php composer.phar --dev install` or `composer --dev install`. Then `bin/vendor/phpunit` to run version
-  installed by Composer. This ensures that you are running a version compatible with the test suite.
-  
-  
-##Contributing
-Fork the repo, make your changes, add your name to developers, and create a pull request with a comment that describe your changes. That's all!
-[Thanks to all contributers](https://github.com/tufanbarisyildirim/php-apk-parser/graphs/contributors)
-  
-##Developers
-[Tufan Barış Yıldırım](http://github.com/tufanbarisyildirim)
-
-##Supporters
-[MiKandi](https://www.mikandi.com)  Team supports/develops Apk parser
-
-[![Php Storm](https://www.jetbrains.com/phpstorm/documentation/docs/logo_phpstorm.png)](https://www.jetbrains.com/phpstorm)
-
-[JetBrains](https://www.jetbrains.com) provides opensource license to Apk Parser's core developers.
-
-** Add your name here if you want to support/donate apk-parser
-
-## Who Uses Apk Parser
-[World #1 Adult App Store MiKandi](http://www.mikandi.com) uses Apk Parser on their app store
-
-[RoidBay Android APK Market](https://www.roidbay.com) uses Apk Parser on their app store
-
-[ApkFiles.com](https://www.apkfiles.com) uses Apk Parser to get data from user apk uploads and fill upload form.
-
-[Add your name here](./BEMENTIONED.md) if you use apk-parser on your any project.
-
-### License
-
-Apk Parser is [MIT licensed](./LICENSE.md).
+- 然后在'composer.json'的文件夹执行：`php composer.phar install' 或 'composer install'
